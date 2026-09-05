@@ -34,6 +34,7 @@ git log，可加--oneline;
 git reset --hard commitID(版本号数字)或commit HEAD~1、2...；？（右键复制，ctrl+c是暂停）
 git reflog;
 vi file01.txt要用i输入，用:wq保持并退出，用:q!退出;
+git commit --amend -m "这里写正确的注释"（修改最近一次提交）
 clear
 ```
 #### 分支常用指令

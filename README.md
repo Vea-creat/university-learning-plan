@@ -11,7 +11,21 @@ Git
 
 ### 常用指令
 
-git init;ll/ls -a;touch file01.txt;git status;git add .;git commit -m "xxx"<-版本名？;git log，可加--oneline;vi file01.txt要用i输入，用:wq保持并退出，用:q!退出;
+git init;
+
+ll/ls -a;
+
+touch file01.txt;
+
+git status;
+
+git add .;
+
+git commit -m "xxx"<-版本名？;
+
+git log，可加--oneline;
+
+vi file01.txt要用i输入，用:wq保持并退出，用:q!退出;
 ### 分支
 git branch
 

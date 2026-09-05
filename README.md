@@ -1,15 +1,18 @@
 ﻿# university-learning-plan
 
 ## 目录区（尚未完成跳转）
-- git
+- [Git](#git)
 - blog
+---
 
 ## 内容区
-Git
+### Git
   
 <img width="570" height="226" alt="屏幕截图 2026-09-04 225052" src="https://github.com/user-attachments/assets/f212e45b-7df8-4789-bc92-2ec085bf4710" />
 
 ### 常用指令
+
+```bash
 
 git init;
 

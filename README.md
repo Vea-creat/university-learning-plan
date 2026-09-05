@@ -1,4 +1,5 @@
 ﻿# university-learning-plan
+### ps:？？？为代办事项
 ## 目录区
 - [Git](#git)
 - [Blog](#blog)
@@ -61,7 +62,8 @@ git branch -m master main(master改名为main)
   git commit -m "Initial commit"
 4.从 GitHub 仓库页面复制仓库地址（HTTPS 或 SSH 格式）
 5.git remote add origin <仓库地址>
-  git push -u origin main（-u使push默认推送仓库为origin,推送分支为main,从而之后直接写push）
+  git push -u origin main（-u使push默认推送仓库为origin,推送分支为main,从而之后直接写push），
+（写main:main可能在大量branch的时候更方便，但有覆盖风险），（git push -f会直接覆盖）
 ？？？（补充）
 1.git remote
 2.Visual Studio 项目里的 .vs 文件夹、x64 文件夹等包含本地配置和编译产物，不应该上传到 GitHub，

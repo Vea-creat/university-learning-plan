@@ -1,5 +1,6 @@
 ﻿# university-learning-plan
-
+# 网课资源:（尚未完成网页跳转）
+b站黑马Git全套教程
 ## 目录区（尚未完成跳转）
 - [Git](#git)
 - [Blog](#blog)
@@ -45,7 +46,7 @@ git checkout xx(切换分支)。git checkout -b xx(创建并切换)；
 
 git merge xxx(在main上改则是合并xxx至main)
 
-git branch -d xxx;(删除)
+git branch -d xxx;(删除所在分支以外的其他分支，若所删分支为完成merge,可把-d换成-D)
 
 （两条线merge冲突时打开最终文件手动改）
 ```

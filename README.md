@@ -34,8 +34,12 @@ git reflog;
 vi file01.txt要用i输入，用:wq保持并退出，用:q!退出;
 
 clear
-### 分支
-git branch
+```
+#### 分支
+```bash
+git branch也可用git log --oneline;
+
+
 
 ```
 ### Blog

@@ -16,7 +16,7 @@
 
 git init;
 
-ll/ls -a;
+ll/ls -a;？？？
 
 touch file01.txt。或touch .gitignore再vi输入*.a来不允许git管理;
 
@@ -35,11 +35,23 @@ vi file01.txt要用i输入，用:wq保持并退出，用:q!退出;
 
 clear
 ```
-#### 分支
+#### 分支常用指令(不同分支是不同副本吗)？？？
 ```bash
 git branch也可用git log --oneline;
 
+git branch xxx;
 
+git checkout xx(切换分支)。git checkout -b xx(创建并切换)；
+
+git merge xxx(在main上改则是合并xxx至main)
+
+git branch -d xxx;(删除)
+
+（两条线merge冲突时打开最终文件手动改）
+```
+#### 分支运用
+```bash
+<img width="792" height="507" alt="屏幕截图 2026-09-05 114716" src="https://github.com/user-attachments/assets/cddd6781-3c21-4c99-b467-161a8da12b92" />
 
 ```
 ### Blog

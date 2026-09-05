@@ -24,7 +24,7 @@ git config --global user.email"xxxxx"
 #### 常用指令
 ```bash
 git init;
-ll/ls -a;？？？（看目录）
+ll/ls ;？？？（看目录）（-a看隐藏文件，-l看详细信息）
 touch file01.txt。或touch .gitignore再vi输入*.a来不允许git管理;
 git status;
 git add .;
@@ -37,8 +37,8 @@ clear
 ```
 #### 分支常用指令
 ```bash
-git branch也可用git log --oneline;
-git branch xxx;（补上-a是显示all本地和远程仓库，-r是remote远程仓库，-v是再显示版本号和描述verbose）
+git branch也可用git log --oneline;（补上-a是显示all本地和远程仓库，-r是remote远程仓库，-v是再显示版本号和描述verbose，-vv更详细）
+git branch xxx;
 git checkout xx(切换分支)。git checkout -b xx(创建并切换)；
 git merge xxx(在main上改则是合并xxx至main)（有普通模式和快进模式）
 git branch -d xxx;(删除所在分支以外的其他分支，若所删分支未完成merge,可把-d换成-D)
@@ -49,7 +49,6 @@ git branch -m master main(master改名为main)
 ？？？
 <img width="792" height="507" alt="屏幕截图 2026-09-05 114716" src="https://github.com/user-attachments/assets/1ab65141-299b-4c5e-b8d5-64a54f0ac078" />
 ```bash
-
 
 ```
 #### 上传github
@@ -62,9 +61,10 @@ git branch -m master main(master改名为main)
   git commit -m "Initial commit"
 4.从 GitHub 仓库页面复制仓库地址（HTTPS 或 SSH 格式）
 5.git remote add origin <仓库地址>
-  git push -u origin main:main（本地main推到云端main，若名字相同可直接写一个main）
+  git push -u origin main（-u使push默认推送仓库为origin,推送分支为main,从而之后直接写push）
 ？？？（补充）
-Visual Studio 项目里的 .vs 文件夹、x64 文件夹等包含本地配置和编译产物，不应该上传到 GitHub，
+1.git remote
+2.Visual Studio 项目里的 .vs 文件夹、x64 文件夹等包含本地配置和编译产物，不应该上传到 GitHub，
 可以在项目根目录下创建一个 .gitignore 文件，把它们排除掉，这样仓库会更干净
 ```
 ### Blog

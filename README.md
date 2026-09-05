@@ -70,6 +70,15 @@ git branch -m master main(master改名为main)
 2.Visual Studio 项目里的 .vs 文件夹、x64 文件夹等包含本地配置和编译产物，不应该上传到 GitHub，
 可以在项目根目录下创建一个 .gitignore 文件，把它们排除掉，这样仓库会更干净
 ```
+#### 拉到本地
+```bash
+git clone;（全部下载）
+git fetch;（只抓取不合并，还需git merge origin/main）
+git pull;（日常维护，抓取并合并，即拉取）
+```
+#### 解决远程冲突
+<img width="622" height="390" alt="屏幕截图 2026-09-05 172226" src="https://github.com/user-attachments/assets/8c8fdb8e-8070-4fa9-9361-5eb174bb1d3f" />
+
 ### Blog
 
 

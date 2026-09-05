@@ -38,11 +38,12 @@ clear
 #### 分支常用指令
 ```bash
 git branch也可用git log --oneline;
-git branch xxx;
+git branch xxx;（补上-a是显示all本地和远程仓库，-r是remote远程仓库，-v是再显示版本号和描述verbose）
 git checkout xx(切换分支)。git checkout -b xx(创建并切换)；
 git merge xxx(在main上改则是合并xxx至main)（有普通模式和快进模式）
 git branch -d xxx;(删除所在分支以外的其他分支，若所删分支未完成merge,可把-d换成-D)
 （两条线merge冲突时打开最终文件手动改）
+git branch -m master main(master改名为main)
 ```
 #### 分支运用
 ？？？
@@ -51,7 +52,7 @@ git branch -d xxx;(删除所在分支以外的其他分支，若所删分支未�
 
 
 ```
-#### 上传github（还没试过）
+#### 上传github
 ```bash
 1.在 GitHub 网页上创建一个空仓库
 2.打开 VS 的“终端”或系统命令行（PowerShell），用 cd 命令进入你的项目文件夹。？？？
@@ -61,7 +62,7 @@ git branch -d xxx;(删除所在分支以外的其他分支，若所删分支未�
   git commit -m "Initial commit"
 4.从 GitHub 仓库页面复制仓库地址（HTTPS 或 SSH 格式）
 5.git remote add origin <仓库地址>
-  git push -u origin main
+  git push -u origin main:main（本地main推到云端main，若名字相同可直接写一个main）
 ？？？（补充）
 Visual Studio 项目里的 .vs 文件夹、x64 文件夹等包含本地配置和编译产物，不应该上传到 GitHub，
 可以在项目根目录下创建一个 .gitignore 文件，把它们排除掉，这样仓库会更干净

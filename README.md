@@ -6,8 +6,10 @@
 ---
 ## 内容区
 ### Git
-#### 网课资源:（尚未完成网页跳转）???
-b站黑马Git全套教程
+#### 学习资源/工具:（尚未完成网页跳转）???
+b站黑马Git全套教程；
+deepseek(harness)；
+
 #### 基本流程  
 <img width="570" height="226" alt="屏幕截图 2026-09-04 225052" src="https://github.com/user-attachments/assets/f212e45b-7df8-4789-bc92-2ec085bf4710" />
 

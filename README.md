@@ -6,9 +6,9 @@
 - [Cpp](#cpp)
 ---
 ## 内容区
-### Git(尚未对细化分区跳转)
-#### 学习资源/工具:（尚未完成网页跳转）???
-b站黑马Git全套教程；
+### Git
+#### 学习资源/工具:
+[**b站黑马Git全套教程**](https://www.bilibili.com/video/BV1MU4y1Y7h5/?spm_id_from=333.1387.search.video_card.click)；
 
 deepseek(harness)；
 

@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="rev-fuxi-guessnum/rev-fuxi-guessnum.vcxproj" Id="befc7b95-0b64-45c6-8457-e7f74f95ea99" />
+</Solution>

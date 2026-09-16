@@ -30,7 +30,7 @@ git config --global user.email"xxxxx"
 ```bash
 git init;
 ll/ls ;？？？（看目录）（-a看隐藏文件，-l看详细信息）
-touch file01.txt。或touch .gitignore再vi输入*.a来不允许git管理;
+touch file01.txt。或touch .gitignore再vi输入*.a来不允许git管理;？？？
 git status;
 git add .;
 git commit -m "xxx"<-版本名？;

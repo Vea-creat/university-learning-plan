@@ -83,6 +83,11 @@ git pull;（日常维护，抓取并合并，即拉取）
 #### 解决远程冲突
 <img width="622" height="390" alt="屏幕截图 2026-09-05 172226" src="https://github.com/user-attachments/assets/8c8fdb8e-8070-4fa9-9361-5eb174bb1d3f" />
 
+#### 实际使用感悟
+```bash
+创建新分支并修改时先用git branch xxx或直接git checkout -b xxx
+```
+
 ### Blog
 
 ### Cpp

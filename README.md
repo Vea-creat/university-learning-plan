@@ -86,6 +86,8 @@ git pull;（日常维护，抓取并合并，即拉取）
 #### 实际使用感悟
 ```bash
 创建新分支并修改时先用git branch xxx或直接git checkout -b xxx
+git分支本质上使用指针
+建议commit后再开新分支，不然容易带着未完成的项目运行或对未完成的项目造成损坏
 ```
 
 ### Blog
